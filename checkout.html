@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buy">
+        <h2>Checkout</h2>
+        <form>
+            <input type="text" id="Name" placeholder="Full name " required><br><br>
+            <input type="email" id="email" placeholder="Email" required><br><br>
+            <label for="payment">Payment option:</label>
+            <select name="payment" id="payment">
+            <option value="card" >Card</option>
+            <option value="transfer">Bank transfer</option>
+            </select><br><br>
+            <button type="submit">Order placed</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
