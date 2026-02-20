@@ -186,7 +186,7 @@ h2{
     color: #fff;
     background: linear-gradient(20deg,#2e1903,#ccac82,#2d1a05);
     opacity: 0.78;
-    padding:6px;
+    padding: 6px;
     
 }
 
@@ -322,7 +322,7 @@ body{
     border-radius: 9px;
     font-size: smaller;
     color: beige;
-    background: linear-gradient(#d2661e86,#4c2b08)
+    background: linear-gradient(#d2661e86,#4c2b08);
     padding: 6px;
 }
 
