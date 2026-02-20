@@ -186,6 +186,7 @@ h2{
     color: #fff;
     background: linear-gradient(20deg,#2e1903,#ccac82,#2d1a05);
     opacity: 0.78;
+    padding:6px;
     
 }
 
@@ -321,9 +322,8 @@ body{
     border-radius: 9px;
     font-size: smaller;
     color: beige;
-    background: linear-gradient(#d2661e86,#4c2b08);
-    justify-content: end;
-    align-items: end;
+    background: linear-gradient(#d2661e86,#4c2b08)
+    padding: 6px;
 }
 
 /*milkshake*/
@@ -380,8 +380,7 @@ body{
     font-size: smaller;
     color: rgb(247, 247, 245);
     background: linear-gradient(#d7bda6,#aa7744);
-    justify-content: end;
-    align-items: end;
+    padding: 6px;
 
 }
 
@@ -423,6 +422,7 @@ body{
     border: none;
     border-radius: 4px;
     color: #2d1a05;
+    padding: 6px;
 }
 
 #butt:hover{
@@ -453,6 +453,7 @@ button{
     border-radius: 6px;
     margin: 10px;
     color: #2d1a05;
+    padding: 6px;
 
 }
 button:focus{
