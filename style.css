@@ -505,7 +505,9 @@ button:focus{
 /* Laptop View */
 @media (min-width: 769px) {
 
+    
     .grid-container{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         padding: 40px;
