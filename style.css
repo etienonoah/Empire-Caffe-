@@ -519,6 +519,11 @@ button:focus{
         width: 100%;
     }
 
+
+    .milk{
+    width: 100%;
+     }
+
     main{
         max-width: 1200px;
         margin: auto;
