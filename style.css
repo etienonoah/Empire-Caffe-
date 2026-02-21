@@ -180,15 +180,7 @@ h2{
     z-index: -1;
 }
 
-.button{
-    border: none;
-    border-radius: 7px;
-    color: #fff;
-    background: linear-gradient(20deg,#2e1903,#ccac82,#2d1a05);
-    opacity: 0.78;
-    padding: 6px;
-    
-}
+
 
 .review{
     background-image: url(Images/bacck.jpg);
@@ -318,15 +310,6 @@ body{
 }
 
 
-.but{
-    border: none;
-    border-radius: 9px;
-    font-size: smaller;
-    color: beige;
-    background: linear-gradient(#d2661e86,#4c2b08);
-    padding: 6px;
-}
-
 /*milkshake*/
 
 
@@ -376,17 +359,7 @@ body{
     text-align: center;
     font-size: 13px;
 }
-
-.butt{
-    border: none;
-    border-radius: 9px;
-    font-size: smaller;
-    color: rgb(247, 247, 245);
-    background: linear-gradient(#d7bda6,#aa7744);
-    padding: 6px;
-
-}
-
+
 /*footer*/
 
 .choc{
@@ -451,16 +424,17 @@ body{
     background-color: #e6ceb0;
 }
 
-button{
+.order {
     border: none;
-    border-radius: 6px;
-    margin: 10px;
-    color: #2d1a05;
+    border-radius: 7px;
+    color: #fff;
+    background: linear-gradient(20deg,#2e1903,#ccac82,#2d1a05);
+    opacity: 0.78;
     padding: 6px;
-     background-color:#C6985E;
-
+    
 }
-button:focus{
+
+.order:focus{
     color: rgb(156, 156, 153);
     border: 1px solid #2d1a05;
    
@@ -499,9 +473,7 @@ button:focus{
         gap: 10px;
     }
 
-    input, textarea{
-        width: 50%;
-    }
+    
 }
 
 
@@ -526,7 +498,7 @@ button:focus{
 
 
     .milk{
-    width: 100%;
+         width: 100%;
      }
 
     main{
